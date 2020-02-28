@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HWAndroid 5.2</string>
+    <string name="txtSettings">Settings</string>
+    <string name="txtTheNote">Записная книжка</string>
+    <string name="inputNoteTxt">Примечание</string>
+    <string name="btnSaveNoteTxt">Сохранить</string>
+    <string name="fileSaved">данные сохранены</string>
+    <string name="txtOpenNote">Отркыть записную книжку</string>
+
+</resources>
