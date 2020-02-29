@@ -11,11 +11,11 @@
 9-->D:\Netology\Android Home Worcks\HWAnfroid_5.2\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Netology\Android Home Worcks\HWAnfroid_5.2\app\src\main\AndroidManifest.xml:5:5-20:19
+11-->D:\Netology\Android Home Worcks\HWAnfroid_5.2\app\src\main\AndroidManifest.xml:5:5-22:19
 12        android:allowBackup="true"
 12-->D:\Netology\Android Home Worcks\HWAnfroid_5.2\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] C:\Users\1nkoGnit0\.gradle\caches\transforms-2\files-2.1\36e3e9561b56dfae3649040dc909bb65\core-1.0.1\AndroidManifest.xml:22:18-86
+13-->[androidx.core:core:1.0.1] C:\Users\1nkoGnit0\.gradle\caches\transforms-2\files-2.1\51ec9767ead7a598d20dd24a7369e6f6\core-1.0.1\AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
@@ -46,6 +46,12 @@
 29        <activity android:name="com.example.hwandroid52.NotesActivity" />
 29-->D:\Netology\Android Home Worcks\HWAnfroid_5.2\app\src\main\AndroidManifest.xml:19:9-50
 29-->D:\Netology\Android Home Worcks\HWAnfroid_5.2\app\src\main\AndroidManifest.xml:19:19-48
-30    </application>
-31
-32</manifest>
+30        <activity android:name="com.example.hwandroid52.AddressActivity" />
+30-->D:\Netology\Android Home Worcks\HWAnfroid_5.2\app\src\main\AndroidManifest.xml:20:9-52
+30-->D:\Netology\Android Home Worcks\HWAnfroid_5.2\app\src\main\AndroidManifest.xml:20:19-50
+31        <activity android:name="com.example.hwandroid52.CalendarActivity" />
+31-->D:\Netology\Android Home Worcks\HWAnfroid_5.2\app\src\main\AndroidManifest.xml:21:9-53
+31-->D:\Netology\Android Home Worcks\HWAnfroid_5.2\app\src\main\AndroidManifest.xml:21:19-51
+32    </application>
+33
+34</manifest>

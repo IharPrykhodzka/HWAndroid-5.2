@@ -28,6 +28,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.hwandroid52.NotesActivity" />
+        <activity android:name="com.example.hwandroid52.AddressActivity" />
+        <activity android:name="com.example.hwandroid52.CalendarActivity" />
     </application>
 
 </manifest>

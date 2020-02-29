@@ -15,4 +15,16 @@
         android:orderInCategory="100"
         android:title="@string/txtTheNote"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_address"
+        android:orderInCategory="100"
+        android:title="@string/txtAddress"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_calendsr"
+        android:orderInCategory="100"
+        android:title="@string/txtCalendar"
+        app:showAsAction="never" />
 </menu>

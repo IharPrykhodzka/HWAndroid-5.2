@@ -20,11 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-
-        Intent intentNotes = new Intent(MainActivity.this, NotesActivity.class);
-        startActivity(intentNotes);
-
-
     }
 
     @Override
@@ -39,6 +34,31 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.action_open_notes) {
             Toast.makeText(MainActivity.this, R.string.txtOpenNote, Toast.LENGTH_LONG).show();
+
+            Intent intentNotes = new Intent(MainActivity.this, NotesActivity.class);
+            startActivity(intentNotes);
+
+            return true;
+
+        } else if (id == R.id.action_open_address){
+            Toast.makeText(MainActivity.this, R.string.txtOpenAddress, Toast.LENGTH_LONG).show();
+
+            Intent intentAddress = new Intent(MainActivity.this, AddressActivity.class);
+            startActivity(intentAddress);
+
+            return true;
+
+        }else if (id == R.id.action_open_calendsr){
+            Toast.makeText(MainActivity.this, R.string.txtOpenCalendar, Toast.LENGTH_LONG).show();
+
+            Intent intentCalendar = new Intent(MainActivity.this, CalendarActivity.class);
+            startActivity(intentCalendar);
+
+            return true;
+
+        }else if (id == R.id.action_settings){
+            Toast.makeText(MainActivity.this, R.string.txtOpenSettings, Toast.LENGTH_LONG).show();
+
             return true;
         }
 
